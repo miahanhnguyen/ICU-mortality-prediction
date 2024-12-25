@@ -1,1 +1,1 @@
-# ICU-mortality-prediction
+# ICU mortality prediction
