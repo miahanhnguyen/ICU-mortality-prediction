@@ -13,21 +13,25 @@ Data preprocessing:
 - Outliers
 - EDA
 - Imputation
+
 Model testing:
 - Logistic Regression
 - Random Forest
 - Gradient Boosting Tree
 - XGBoost
 - Histogram Gradient Boosting
+
 Performance metrics:
 - F1-score
 - AUC-ROC
 - Confusion matrix
+
 To assess the contribution of individual predictors: using SHAP (SHapley Additive ExPlanations) - a game-theory-based approach that provides interpretable attributions for each feature.
 ### 2. Weekend effect
 Data selection:
 - Patients admitted through the emergency room, without transfers or referrals.
 - Weekend admission: a binary variable distinguishing between weekend admission (Saturday and Sunday) and weekday admission (Monday to Friday).
+
 Statistical analysis: Cox proportional hazards models
 - Unadjusted model: Assessing the effect of weekend admission on mortality alone.
 - Adjusted model: Controlling for potential confounders. 
