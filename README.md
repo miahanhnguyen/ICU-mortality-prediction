@@ -35,7 +35,7 @@ Data selection:
 Statistical analysis: Cox proportional hazards models
 - Unadjusted model: Assessing the effect of weekend admission on mortality alone.
 - Adjusted model: Controlling for potential confounders. 
-### Results
+## Results
 ### 1. ICU mortality prediction
 The predictor distributions for survival and mortality classes overlapped, with subtle shifts in central tendencies and tails. The mean age was around 63 years, with older patients (mode around 80 years) in the mortality group (Class 1) compared to younger patients (mode around 60 years) in the survival group (Class 0), indicating higher mortality risk with age. The average ICU length of stay was 5 days, and the average time to death was 2 months.
 
